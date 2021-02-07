@@ -2,6 +2,8 @@ friends = ['Taylor', 'Alex', 'Pat', 'Eli']
 for friend in friends:
     print("Hi " + friend)
 
+# print("Hi" + 7 ) <-- Not permitted
+
 for i in range(10):
   print("Hello, World!")
 
