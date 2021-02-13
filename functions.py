@@ -68,11 +68,11 @@ rectangle_area(5, 6)
 
 # Practice functions quiz
 
-'1
+'''1'''
 # 1) Complete the function to return the result of the conversion
 def convert_distance(miles):
 	km = miles * 1.6  # approximately 1.6 km in 1 mile
-    return km
+	return km
 
 my_trip_miles = 55
 
@@ -87,7 +87,7 @@ print("The distance in kilometers is " + str(my_trip_km))
 
 print("The round-trip in kilometers is " + str(my_trip_km * 2 ))
 
-'2
+'''2'''
 # This function compares two numbers and returns them
 # in increasing order.
 def order_numbers(number1, number2):
@@ -101,7 +101,7 @@ def order_numbers(number1, number2):
 smaller, bigger = order_numbers(100, 99)
 print(smaller, bigger)
 
-'3
+'''3'''
 def lucky_number(name):
   number = len(name) * 9
   lucky_number = "Hello " + name + ". Your lucky number is " + str(number)
