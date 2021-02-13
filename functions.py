@@ -12,7 +12,7 @@ to the right following a function definition is part of the function
 body. The first line that’s no longer indented is the boundary of the
 function body. It’s up to you how many spaces you use when indenting
 -- just make sure to be consistent. So if you choose to indent with
-four spaces, you need to use four spaces everywhere in your code. """
+four spaces, you need to use four spaces everywhere in your code.  """
 
 def greeting(name):
     print("Welcome " + name)
